@@ -14,6 +14,17 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+
+
+//building out CRUD
+//posts 
+//1.get all(GET)
+//2.create post (POST)
+//2.get single(GET)
+//3.update singe (PUT/PATCH)
+//4.delete(DELETE)
+
+Route::get('/testing-the-api',function(){ return ['message'=>'hello'];});
 Route::middleware('auth:api')->get('/user', function (Request $request) {
     return $request->user();
 });
