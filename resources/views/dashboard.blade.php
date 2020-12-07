@@ -2,7 +2,11 @@
     <x-slot name="header">
         <h2 class="font-semibold text-xl text-gray-800 leading-tight">
 <<<<<<< HEAD
+<<<<<<< HEAD
             {{ __('Profile') }}
+=======
+            {{ __('Dashboard') }}
+>>>>>>> 9e520cd5d3846cdf738477017850353657e5b3b8
 =======
             {{ __('Dashboard') }}
 >>>>>>> 9e520cd5d3846cdf738477017850353657e5b3b8
@@ -12,6 +16,7 @@
     <div class="py-12">
         <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
             <div class="bg-white overflow-hidden shadow-xl sm:rounded-lg">
+<<<<<<< HEAD
 <<<<<<< HEAD
                
             </div>
@@ -117,9 +122,14 @@
 
 
 =======
+=======
+>>>>>>> 9e520cd5d3846cdf738477017850353657e5b3b8
                 <x-jet-welcome />
             </div>
         </div>
     </div>
 </x-app-layout>
+<<<<<<< HEAD
+>>>>>>> 9e520cd5d3846cdf738477017850353657e5b3b8
+=======
 >>>>>>> 9e520cd5d3846cdf738477017850353657e5b3b8

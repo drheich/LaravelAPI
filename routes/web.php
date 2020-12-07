@@ -2,7 +2,10 @@
 
 use Illuminate\Support\Facades\Route;
 <<<<<<< HEAD
+<<<<<<< HEAD
 use App\Http\Controllers\FileUpload;
+=======
+>>>>>>> 9e520cd5d3846cdf738477017850353657e5b3b8
 =======
 >>>>>>> 9e520cd5d3846cdf738477017850353657e5b3b8
 
@@ -25,11 +28,14 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return view('dashboard');
 })->name('dashboard');
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 Route::get('/image-upload', [FileUpload::class, 'createForm']);
 
 Route::post('/image-upload', [FileUpload::class, 'fileUpload'])->name('imageUpload');
 
 Route::get('/image-view',[FileUpload::class, 'display']);
+=======
+>>>>>>> 9e520cd5d3846cdf738477017850353657e5b3b8
 =======
 >>>>>>> 9e520cd5d3846cdf738477017850353657e5b3b8
